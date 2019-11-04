@@ -13,7 +13,8 @@ import io.cucumber.junit.CucumberOptions;
 	features="Feature",
 			glue= {"stepDefinition"},
 	monochrome=true,
-			plugin= {"pretty","json:target/cucumber.json"}
+			plugin= {"pretty","json:target/cucumber.json"},
+			tags= {"@data-driven"}
 )		
 
 public class Runner {
