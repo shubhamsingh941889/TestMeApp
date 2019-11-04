@@ -32,16 +32,16 @@ public class PageObjects {
 		signin.click();
 	}
 	
-	public  void name_username()
+	public  void name_username(String name)
 	{
 		//username.click();
-		username.sendKeys("lalitha");
+		username.sendKeys(name);
 	}
 	
-	public  void name_password()
+	public  void name_password(String pass)
 	{
 		//password.click();
-		password.sendKeys("Password123");
+		password.sendKeys(pass);
 	}
 	
 	public  void name_login()
