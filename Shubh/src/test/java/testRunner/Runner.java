@@ -11,7 +11,7 @@ import io.cucumber.junit.CucumberOptions;
 	features="Feature",
 			glue= {"stepDefinition"},
 	monochrome=true,
-			plugin= {"pretty","html:test-output"}
+			plugin= {"pretty","json:target/cucumber.json"}
 )		
 
 public class Runner {
